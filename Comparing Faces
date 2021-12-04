@@ -1,32 +1,40 @@
+import json
 import boto3
 
 def compare_faces(sourceFile, targetFile):
+    s3 = boto3.client('s3')
+    sourceFile = '' #source image의 위치
+    targetFile = '' #target image의 위치
+    rekognition = boto3.client('rekognition')
 
-    client=boto3.client('rekognition')
-   
-    imageSource=open(sourceFile,'rb')
-    imageTarget=open(targetFile,'rb')
+    imageSource = open(sourceFile, 'rb')
+    imageTarget = open(targetFile, 'rb')
 
-    response=client.compare_faces(SimilarityThreshold=80,
-                                  SourceImage={'Bytes': imageSource.read()},
-                                  TargetImage={'Bytes': imageTarget.read()})
-    
+    response = rekognition.compare_faces(SimilarityThreshold=80,
+                                    SourceImage={'Bytes': imageSource.read()},
+                                    TargetImage={'Bytes': imageTarget.read()})
+
     for faceMatch in response['FaceMatches']:
-        position = faceMatch['Face']['BoundingBox']
-        similarity = str(faceMatch['Similarity'])
-        print('The face at ' +
-               str(position['Left']) + ' ' +
-               str(position['Top']) +
-               ' matches with ' + similarity + '% confidence')
+        similarity = round(float(faceMatch['Similarity']), 2)
+        if (similarity >= 95):
+            print(str(similarity) + '%')
+            print('동일 인물 입니다')
+        elif (similarity >= 80):
+            print(str(similarity) + '%')
+            print('유사 하지만 동일 인물이 아닙니다')
+        else:
+            print(str(similarity) + '%')
+            print('다른 인물 입니다')
 
     imageSource.close()
-    imageTarget.close()     
-    return len(response['FaceMatches'])          
+    imageTarget.close()
+    return len(response['FaceMatches'])
+
 
 def main():
-    source_file='source'
-    target_file='target'
-    face_matches=compare_faces(source_file, target_file)
+    source_file = 'source'
+    target_file = 'target'
+    face_matches = compare_faces(source_file, target_file)
     print("Face matches: " + str(face_matches))
 
 
