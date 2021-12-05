@@ -12,7 +12,7 @@
   + result
     + 동일 인물(99.99%)
 
-    ![result01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.PNG)
+    ![result01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.png)
 -------
 + sample02
   + sourceimage
