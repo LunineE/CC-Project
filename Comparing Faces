@@ -3,7 +3,7 @@ import boto3
 def compare_faces(bucket, source, target, region='us-east-1'):
     rekognition = boto3.client('rekognition', region)
     response = rekognition.compare_faces(
-        SimilarityThreshold=80,
+        SimilarityThreshold=0, #예제 기본 수치 80
         SourceImage={
             'S3Object': {
                 'Bucket': bucket,
