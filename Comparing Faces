@@ -1,18 +1,22 @@
-import json
 import boto3
 
-def compare_faces(sourceFile, targetFile):
-    s3 = boto3.client('s3')
-    sourceFile = '' #source image의 위치
-    targetFile = '' #target image의 위치
-    rekognition = boto3.client('rekognition')
+def compare_faces(bucket, source, target, region='us-east-1'):
+    rekognition = boto3.client('rekognition', region)
+    response = rekognition.compare_faces(
+        SimilarityThreshold=80,
+        SourceImage={
+            'S3Object': {
+                'Bucket': bucket,
+                'Name': source,
+            }
+        },
 
-    imageSource = open(sourceFile, 'rb')
-    imageTarget = open(targetFile, 'rb')
-
-    response = rekognition.compare_faces(SimilarityThreshold=80,
-                                    SourceImage={'Bytes': imageSource.read()},
-                                    TargetImage={'Bytes': imageTarget.read()})
+        TargetImage={
+            'S3Object': {
+                'Bucket': bucket,
+                'Name': target,
+            }
+        })
 
     for faceMatch in response['FaceMatches']:
         similarity = round(float(faceMatch['Similarity']), 2)
@@ -26,15 +30,14 @@ def compare_faces(sourceFile, targetFile):
             print(str(similarity) + '%')
             print('다른 인물 입니다')
 
-    imageSource.close()
-    imageTarget.close()
     return len(response['FaceMatches'])
 
 
 def main():
-    source_file = 'source'
-    target_file = 'target'
-    face_matches = compare_faces(source_file, target_file)
+    bucket = 'comparefacesbucket'
+    source_file = 'source.png'
+    target_file = 'target.png'
+    face_matches = compare_faces(bucket, source_file, target_file)
     print("Face matches: " + str(face_matches))
 
 
