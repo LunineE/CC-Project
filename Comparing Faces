@@ -23,7 +23,7 @@ def compare_faces(bucket, source, target, region='us-east-1'):
         if (similarity >= 95):
             print(str(similarity) + '%')
             print('동일 인물 입니다')
-        elif (similarity >= 80):
+        elif (similarity >= 70):
             print(str(similarity) + '%')
             print('유사 하지만 동일 인물이 아닙니다')
         else:
