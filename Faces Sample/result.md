@@ -3,7 +3,7 @@
 + sample01
   + sourceimage
     + 박보검
-    + https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source01.png
+    + ![source01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source01.png)
   + targetimage
     + 박보검
   + result
