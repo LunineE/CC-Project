@@ -16,7 +16,7 @@
     + ![source02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source02.png)
   + targetimage
     + 이광수 닮은꼴 중국 연습생
-    + ![target02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/target2.png)
+    + ![target02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/target02.png)
   + result
     + 유사 인물(72.61%)
 -------
