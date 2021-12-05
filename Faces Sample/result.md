@@ -12,7 +12,7 @@
   + result
     + 동일 인물(99.99%)
 
-    ![result01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.png)
+    ![result01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.PNG)
 -------
 + sample02
   + sourceimage
@@ -26,7 +26,7 @@
   + result
     + 유사 인물(72.61%)
 
-    ![result02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.PNG)
+    ![result02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result02.PNG)
 -------
 + sample03
   + sourceimage
@@ -40,7 +40,7 @@
   + result
     + 동일 인물(90.65%)
 
-    ![result03.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result03.png)
+    ![result03.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result03.PNG)
 -------
 + sample04
   + sourceimage
@@ -62,9 +62,9 @@
   + result
     + 동일 인물(99.99%, 99.95%, 99.97%)
 
-    ![result04a.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result04a.png)
-    ![result04b.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result04b.png)
-    ![result04c.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result04c.png)
+    ![result04a.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result04a.PNG)
+    ![result04b.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result04b.PNG)
+    ![result04c.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result04c.PNG)
 -------
 + sample05
   + sourceimage
@@ -78,7 +78,7 @@
   + result 
     + 동일 인물(99.46%)
 
-    ![result05.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result05.png)
+    ![result05.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result05.PNG)
 -------
 + sample06
   + sourceimage
@@ -92,4 +92,4 @@
   + result
     + 다른 인물(1.97%)
 
-    ![result06.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result06.png)
+    ![result06.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result06.PNG)
