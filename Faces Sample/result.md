@@ -12,7 +12,7 @@
   + result
     + 동일 인물(99.99%)
 
-    ![result01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.png)
+    ![result01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.PNG)
 -------
 + sample02
   + sourceimage
@@ -26,7 +26,7 @@
   + result
     + 유사 인물(72.61%)
 
-    ![result02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result02.png)
+    ![result02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Result/result01.PNG)
 -------
 + sample03
   + sourceimage
