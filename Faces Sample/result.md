@@ -1,6 +1,6 @@
 #  얼굴 비교결과
 -------
-+ sample01
+## + sample01
   + sourceimage
     + 박보검
     + ![source01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source01.png)
