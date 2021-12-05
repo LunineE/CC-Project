@@ -4,7 +4,7 @@
   + sourceimage
     + 박보검
     
-    ![source01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source01.png)
+    ![source01.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Source/source01.pngg)
   + targetimage
     + 박보검
     
@@ -16,7 +16,7 @@
   + sourceimage
     + 이광수
     
-    ![source02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source02.png)
+    ![source02.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Source/source02.png)
   + targetimage
     + 이광수 닮은꼴 중국 연습생
     
@@ -28,7 +28,7 @@
   + sourceimage
     + 조세호(다이어트 전)
     
-    ![source03.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source03.png)
+    ![source03.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Source/source03.png)
   + targetimage
     + 조세호(다이어트 후)
     
@@ -40,7 +40,7 @@
   + sourceimage
     + 유재석(지미유)
     
-    ![source04.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source04.png)
+    ![source04.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Source/source04.png)
   + targetimage01
     + 유재석(유야호)
     
@@ -60,7 +60,7 @@
   + sourceimage
     + 강호동
     
-    ![source05.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source05.png)
+    ![source05.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Source/source05.png)
   + targetimage
     + 강호동(20대)
     
@@ -72,7 +72,7 @@
   + sourceimage
     + 양세찬
     
-    ![source06.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/source06.png)
+    ![source06.png](https://github.com/LunineE/CC-Project/blob/main/Faces%20Sample/Source/source06.png)
   + targetimage
     + 양세형
     
